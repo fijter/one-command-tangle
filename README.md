@@ -18,5 +18,6 @@ anything else besides local testing since it would be insecure to use this other
 
 ## Notes
 
+- Your private tangle will run on http://localhost:14265
 - With the default settings all 2.7Pi on this testnet will be available on the seed `SEED99999999999999999999999999999999999999999999999999999999999999999999999999999`
 - If you want to start Compass again after stopping it make sure to remove the `-bootstrap` line from `docker-compose.yml` before starting again.
