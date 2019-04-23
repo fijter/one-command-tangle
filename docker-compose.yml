@@ -10,6 +10,7 @@ services:
       - ./layers:/layers
     command: coordinator_deploy.jar
       -bootstrap
+      -broadcast
       -layers /layers
       -sigMode CURLP27
       -powMode CURLP81
