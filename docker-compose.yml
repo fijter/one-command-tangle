@@ -1,7 +1,7 @@
 version: '3'
 services:
   compass:
-    image: "iotacafe/compass:coordinator-554440c"
+    image: "iotaledger/compass:coordinator-cfce093"
     network_mode: host
     depends_on: 
       - 'iri'
@@ -38,4 +38,4 @@ services:
       --milestone-start 0
       --milestone-keys 20
       --snapshot /snapshot.txt
-      --max-depth 1000 
+      --max-depth 15 
